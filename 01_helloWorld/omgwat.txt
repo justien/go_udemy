@@ -1,3 +1,0 @@
-cappuccino 2,60
-galao 2,50
-galao imperial 3,30
