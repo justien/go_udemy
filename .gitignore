@@ -41,6 +41,7 @@ bower_components/
 .tmp
 .sass-cache
 builds/**/images/*
+*.txt
 *.ogg
 *.mp3
 *.mp4
