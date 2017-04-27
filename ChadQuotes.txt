@@ -5,3 +5,7 @@
 ".. good stuff ... awesome .... seems like there was something I wanted to say ... :{ ... "
 
 "In coding, knowing humanity lets you make things which work well for people."
+
+Section 5, Lecture 49
+"This is an engineering field, it's computer engineering, software engineering, and it's challenging.  Like there's many people that go into this field and don't make it because they did not get good teachers.  And that's terrible!  That's very unfortunate!  If you were to go to computer science at any university, some of your professors would barely be able to speak English. Right? That's the sad fact of the matter.  Like, we've brought people in from foreign countries, and they don't even know ... you know ... that's what, like, I've heard from anybody who's ever studied computer science, has shared that with me, when I've asked them about it.  Anyhow you're doing great!"
+
