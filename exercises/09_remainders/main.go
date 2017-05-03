@@ -12,6 +12,11 @@ func main() {
 		fmt.Println("even")
 	}
 
+	// var y float64 = 19
+	// var m float64 = 4.9
+	// n := y % m
+	// fmt.Printf("n is ", n)
+
 	for i := 1; i < 7; i++ {
 		if i%2 == 1 {
 			fmt.Println("i has an odd value")
