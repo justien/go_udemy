@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("&a is ", &a)
 
 	var b *int = &a
-	fmt.Println(" b is *int of &a")
+	fmt.Println("  b is *int of &a")
 	fmt.Println(" b is ", b)
 	fmt.Println("*b is ", *b)
 	fmt.Println("&b is ", &b)
