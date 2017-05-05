@@ -10,4 +10,14 @@ func main() {
 	for i := 18765; i <= 18775; i++ {
 		fmt.Printf("%v - %v - %v\n", i, string(i), []byte(string(i)))
 	}
+
+	for i := 50; i <= 54; i++ {
+		fmt.Println('i', " - ", string(i), []byte(string(i)))
+	}
+
+	foo := 'a'
+	fmt.Println(foo)
+	fmt.Printf("%T \n", foo)
+	fmt.Printf("%T \n", rune(foo))
+
 }
