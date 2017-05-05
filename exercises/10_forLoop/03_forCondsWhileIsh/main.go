@@ -30,7 +30,7 @@ func main() {
 		fmt.Println()
 		ordinalsuffix := Ordinals(i)
 		fmt.Printf("the %d%s", i, ordinalsuffix)
-		fmt.Printf(" gem shines like the abandoned number ")
+		fmt.Printf(" bone shines like the abandoned number ")
 		thisrandmin := random(i, i*100)
 		// fmt.Println(thisrandmin)
 		thisrandmax := random(i*100, i*1000)
