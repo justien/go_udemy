@@ -4,13 +4,16 @@ import "fmt"
 
 func main() {
 
-	b := true
+	// b := true
 	c := false
+	d := 17
+	e := 17
+
 	if food := "Chocolate"; c {
 		fmt.Println(food)
 	}
-	if food := "Kale"; b {
-		fmt.Println(food)
+	if numbers := "twins since birth"; d == e {
+		fmt.Println(numbers)
 	}
 
 	/*
