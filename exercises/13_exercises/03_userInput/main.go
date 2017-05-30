@@ -7,7 +7,9 @@ func main() {
 
 	fmt.Println()
 	fmt.Println("How would you like me to name you?")
-	fmt.Scan(&name)
+
+	fmt.Scanf("%q", &name)
+
 	fmt.Printf("Hello %s, welcome to this place.\n", name)
 	fmt.Println()
 }
