@@ -35,5 +35,4 @@ func main() {
 /* NOTE WELL:
    as soon as a func expression is declared, any non-returned
    instructions are executed!
-   A named function
 */
