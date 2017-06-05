@@ -17,6 +17,11 @@ func main() {
 }
 
 /*
+
+func wrapper() func() int
+ ... an "int-returning func" is a type, different from for instance
+ a "float64-returning func".
+
 ... I don't yet understand the point of this wrapper concept.
 Here we have an anonymous function inside a named function.
 Conceptually, what's the advantage?
