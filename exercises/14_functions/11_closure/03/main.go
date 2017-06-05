@@ -11,8 +11,15 @@ func main() {
 		return x
 	}
 
+	decrement := func() int {
+		x := x - 1
+		return x
+	}
+
 	fmt.Println("The 1st increment of x:", increment())
 	fmt.Println("The 2nd increment of x:", increment())
+
+	fmt.Println("The 1st decrement of x:", decrement())
 }
 
 /*
