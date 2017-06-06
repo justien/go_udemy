@@ -27,10 +27,18 @@ func main() {
 
 /*
 when visit() is called, it is passed two arguments:
+
 1. a slice of ints {1, 2, 3, 5}
 2. a little function which uses an int called r
+   func(r int) {
+     fmt.Println("Hello! r has value", r)
+   }
 
+... notice that this is an anonymous function with one
+parameter - an int called r - and all it does is print the
+argument of that parameter.
 
+... so when callback(n) happens in visit(), it performs the function using the current value of n.
 
 
 */

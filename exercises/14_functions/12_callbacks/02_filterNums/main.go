@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func filter(numbers []int, callback func(int) bool) []int {
-	xs := []int{}
+	// xs := []int{}
+	var xs []int
 	for _, n := range numbers {
 		if callback(n) {
 			xs = append(xs, n)
