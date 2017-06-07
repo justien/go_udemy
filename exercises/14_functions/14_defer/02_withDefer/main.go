@@ -33,7 +33,7 @@ deferred functions
 ... will wait until the completion of all the other
 functions in the block before executing.
 
-they are place on the stack in order of program execution,
+they're placed on the stack in order of program execution,
 and following the final non-deferred instruction, are then
 executed in LIFO order.
 */
