@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func hello() {
-	fmt.Print("hello")
+	fmt.Print("hello ")
 
 }
 
@@ -15,3 +15,7 @@ func main() {
 	world()
 	hello()
 }
+
+/*
+Welcome to
+*/
