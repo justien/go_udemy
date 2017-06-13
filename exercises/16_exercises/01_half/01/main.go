@@ -4,18 +4,15 @@ import "fmt"
 
 func main() {
 
-	// bingo := half(4)
-
 	fmt.Println(half(7))
 }
 
 func half(z int) (int, bool) {
-	fmt.Println("Z is", z)
+
 	divide := z / 2
-	fmt.Println("z divided by 2 is ", divide)
 	remainder := z % 2
-	fmt.Println("z remainder 2 is", remainder)
 	even := true
+
 	if remainder == 1 {
 		even = false
 	}
