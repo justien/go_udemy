@@ -4,19 +4,12 @@ import "fmt"
 
 func main() {
 
-	greeting := []string{
-		"Good morning!",
-		"Bonjour!",
-		"dias!",
-		"Bongiorno!",
-		"Ohayo gozaimasu!",
-		"Selamat datang!",
-		"Guten morgen!", // <--- NOTE THE ENDING COMMA!!!!
-	}
-	fmt.Print("[1:2] ")
-	fmt.Println(greeting[1:2])
-	fmt.Print("[:2] ")
-	fmt.Println(greeting[5:])
-	fmt.Print("[:] ")
-	fmt.Println(greeting[:])
+	var results []int
+	fmt.Println(results)
+
+	mySlice := []string{"a", "b", "c", "g", "m", "z"}
+	fmt.Println(mySlice)
+	fmt.Println(mySlice[2:4])  // slicing a slice
+	fmt.Println(mySlice[2])    // index access; accessing by index
+	fmt.Println("myString"[2]) // index access; accessing by index
 }

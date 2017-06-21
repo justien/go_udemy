@@ -16,4 +16,5 @@ func main() {
 		mySlice = append(mySlice, i)
 		fmt.Println("Length:", len(mySlice), "Cap:", cap(mySlice), "Value:", mySlice[i])
 	}
+
 }
