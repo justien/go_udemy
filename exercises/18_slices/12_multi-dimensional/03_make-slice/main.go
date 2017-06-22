@@ -10,6 +10,8 @@ func main() {
 
 	// student = append(student, "Todd")
 
-	fmt.Println(student)
-	fmt.Println(students)
+	fmt.Println("Here is students", students)
+	fmt.Println("Here is student", student)
+
+	fmt.Println("Is the slice student empty?", student == nil)
 }
