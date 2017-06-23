@@ -36,5 +36,11 @@ func main() {
 	myNachSpeise["Wednesday"] = "Butter Spitzgebäck"
 	fmt.Println(myNachSpeise)
 
-	//
+	// make a map with INITIALISED COMPOSITE LITERAL
+	myNeighbour := map[string]string{
+		"4OG": "Friendly single Mum and astronaut daughter",
+		"3OG": "Markus and family, nuggety man and family",
+		"2OG": "Mannequin A and his airBnB peeps",
+	}
+	fmt.Println(myNeighbour)
 }
