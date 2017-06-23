@@ -4,9 +4,9 @@ import "fmt"
 
 func main() {
 
-	var myGreeting = make(map[string]string)
-	myGreeting["Tim"] = "Good morning."
-	myGreeting["Jenny"] = "Bonjour."
+	mygreeting := make(map[string]string)
+	mygreeting["breakfast"] = "Hummus on toast"
+	mygreeting["lunch"] = "Pan-fried salmon"
 
-	fmt.Println(myGreeting)
+	fmt.Println(mygreeting)
 }

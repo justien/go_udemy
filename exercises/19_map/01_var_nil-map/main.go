@@ -4,15 +4,9 @@ import "fmt"
 
 func main() {
 
-	var myGreeting map[string]string
-	fmt.Println(myGreeting)
-	fmt.Println(myGreeting == nil)
-}
+	mygreeting := make(map[string]string)
+	mygreeting["breakfast"] = "Hummus on toast"
+	mygreeting["lunch"] = "Pan-fried salmon"
 
-// add these lines:
-/*
-	myGreeting["Tim"] = "Good morning."
-	myGreeting["Jenny"] = "Bonjour."
-*/
-// and you will get this:
-// panic: assignment to entry in nil map
+	fmt.Println(mygreeting)
+}
