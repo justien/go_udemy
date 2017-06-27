@@ -12,7 +12,9 @@ type person struct {
 }
 
 func main() {
+
 	var p1 person
+
 	fmt.Println(p1.First)
 	fmt.Println(p1.Last)
 	fmt.Println(p1.Age)
@@ -26,3 +28,8 @@ func main() {
 	fmt.Println(p1.Age)
 	fmt.Printf("%T \n", p1)
 }
+
+/*
+Main thing to notice:
+the slice of bytes has wisdom score, but person stores it as Age
+*/

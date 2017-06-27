@@ -6,13 +6,16 @@ import (
 )
 
 type person struct {
-	First string
-	Last  string `json:"-"`
-	Age   int    `json:"wisdom score"`
+	Vorname  string
+	Nachname string `json:"-"`            // don't export this KV pair
+	Age      int    `json:"wisdom score"` // these tags will replace the keys
 }
 
 func main() {
+
 	p1 := person{"James", "Bond", 20}
-	bs, _ := json.Marshal(p1)
-	fmt.Println(string(bs))
+
+	myByteSlice, _ := json.Marshal(p1)
+
+	fmt.Println(string(myByteSlice)) //--> {"First":"James","wisdom score":20}
 }
