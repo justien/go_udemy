@@ -14,3 +14,12 @@ func main() {
 	fmt.Println(p1.first, p1.last, p1.age)
 	fmt.Println(p2.first, p2.last, p2.age)
 }
+
+/*
+struct defines the structure of a bespoke type.
+This structured type is used a blueprint when
+declaring variables.
+
+  p1 := person{"Susan", "Faludi", 99}
+
+*/
