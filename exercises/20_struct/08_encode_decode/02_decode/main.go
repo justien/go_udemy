@@ -21,7 +21,7 @@ func main() {
 	// Gday Strings, NewReader the following slice of bytes thx!
 	rdr := strings.NewReader(`{"First":"James", "Last":"Bond", "Age":20}`)
 
-	// Heya Jason, NewDecode from/using rdr into the address of p1
+	// Heya Jason, NewDecode from/using rdr in to the address of p1
 	// in its Decode (receiving) manifestation thx!
 	json.NewDecoder(rdr).Decode(&p1)
 
