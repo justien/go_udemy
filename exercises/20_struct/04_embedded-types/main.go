@@ -17,11 +17,7 @@ type doubleZero struct {
 
 func main() {
 	p1 := doubleZero{
-		person: person{
-			First: "James",
-			Last:  "Bond",
-			Age:   20,
-		},
+		person:        person{"James", "Bond", 20},
 		LicenseToKill: true,
 	}
 
