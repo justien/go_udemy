@@ -44,10 +44,12 @@ func main() {
 	}
 
 	/*
-	   p1 is of type person.  It'll look for functions which receive person types,
-	   and will ignore functions that don't receive people.
-	   p2 is of type doubleZero, and only pays attention to funcs which
-	   receive doubleZero things.
+	   p1 is of type person.
+	     It'll look for functions which receive person types,
+	     and will ignore functions that don't receive people.
+
+	   p2 is of type doubleZero.
+	     It only pays attention to funcs which receive doubleZero things.
 	*/
 
 	p1.Greeting()
