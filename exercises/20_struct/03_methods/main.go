@@ -23,7 +23,7 @@ func main() {
 We can take a type, and apply a method.
 This is like saying: Take p1 and do fullName with it!
 
-In this example, it's possible call fullName wihout specific variables -
-ie p1.fullName() - because fullName() itself states which variables
-it receives,  it has a receiver (ie (p person) )
+In this example, it's possible call fullName without specific variables -
+ie p1.fullName() - because fullName() itself has a receiver parameter,
+where it states which variables it receives (ie (p person) )
 */
