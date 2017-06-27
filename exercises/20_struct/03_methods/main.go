@@ -18,3 +18,12 @@ func main() {
 	fmt.Println(p1.fullName())
 	fmt.Println(p2.fullName())
 }
+
+/*
+We can take a type, and apply a method.
+This is like saying: Take p1 and do fullName with it!
+
+In this example, it's possible call fullName wihout specific variables -
+ie p1.fullName() - because fullName() itself states which variables
+it receives,  it has a receiver (ie (p person) )
+*/
