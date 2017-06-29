@@ -22,7 +22,7 @@ func (s square) area() float64 {
 	return s.side * s.side
 }
 
-// which implements the shape interface
+// circle implements the shape interface
 func (c circle) area() float64 {
 	return math.Pi * c.radius * c.radius
 }
