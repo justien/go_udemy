@@ -18,3 +18,23 @@ func main() {
 	fmt.Println(str)
 
 }
+
+/*
+
+func Get(url string) (resp *Response, err error)
+v
+... Response is a struct with a bunch of fields, including ...
+Body io.ReadCloser
+v
+... and Body implements the ReadCloser interface ...
+type ReadCloser interface {
+      Reader
+      Closer
+}
+v
+... which implements the Reader interface ...
+type Reader interface {
+      Read(p []byte) (n int, err error)
+}
+
+*/
