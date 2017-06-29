@@ -16,3 +16,8 @@ func main() {
 	//fmt.Printf("%q", strings.Trim(a, "[]"))
 	//fmt.Printf(a)
 }
+
+/*
+Sources:
+search:Print Slice without delimiters
+https://play.golang.org/p/sk6JKiN6qQ
