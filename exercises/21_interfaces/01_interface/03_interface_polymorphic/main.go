@@ -9,7 +9,6 @@ type square struct {
 	side float64
 }
 
-// another shape
 type circle struct {
 	radius float64
 }
